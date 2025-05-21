@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>ChessBot</title>
+        <title>Joseph's Bot</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.1/bootstrap-table.min.js"></script>
 
@@ -22,7 +22,7 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
-        <script type="text/javascript"> $SCRIPT_ROOT = {{ request.script_root|tojson|safe }}; </script>
+        <script type="text/javascript"> $SCRIPT_ROOT = '';  </script>
         <script type="text/javascript" src="{{ url_for('static',filename='libs/chessboard/js/chessboard-0.3.0.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static',filename='libs/chessboard/js/chessboard-0.3.0.min.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static',filename='scripts.js') }}"></script>
@@ -31,7 +31,7 @@
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
-              <h1 id="logo">ChessBot</h1>
+              <h1 id="logo">Joseph Bot</h1>
           </div>
         </nav>
         <div class="container">
